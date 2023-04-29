@@ -56,4 +56,12 @@
 		<framework>None</framework>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <ApplicationTitle>multiroute</ApplicationTitle>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	  <ApplicationTitle>multiroute</ApplicationTitle>
+	</PropertyGroup>
+
 </Project>
