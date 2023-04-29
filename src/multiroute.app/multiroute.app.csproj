@@ -61,6 +61,12 @@
 	  <ProjectReference Include="..\multiroute.core\multiroute.core.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Content Include="appsettings.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
 	<PropertyGroup Label="MauiAppAccelerator">
 		<wizardVersion>v1.2.3</wizardVersion>
 		<projectType>CSharpMarkup</projectType>
